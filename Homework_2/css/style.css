@@ -1,0 +1,131 @@
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: #2c3e50;
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #0a4076a0;
+    font-family: arial, sans-serif;
+    text-align:left;
+    font-size: 28px;
+    font-weight:lighter;
+    margin: 40px 80px;
+}
+
+.img {
+    margin-bottom: 0;
+    height: 240px;
+}
+
+.backgr {
+    margin-top: -5px;
+    width: 100%;
+    height: 30px;
+    background:rgba(220, 213, 236, 0.797);
+}
+
+#topmenu {
+    width:100%;
+    height: 60px;
+    background:rgba(220, 213, 236, 0.468);
+    font-size:18px;
+    position: relative;
+    overflow: hidden;
+}
+
+.menu {
+    position: relative;
+    left: 50%;
+    float: left;
+}
+
+#topmenu .menu li {
+    position: relative;
+    left: -50%;
+    float: left;
+    display:table-cell;
+}  
+
+#topmenu a {
+    color: #82672d;
+    text-decoration:none;
+    display:block;
+    padding: 22px;
+}
+
+#topmenu a:hover {
+    color: #ccc;
+}
+
+.ort_h {
+    padding: 20px 80px;
+    color: #48258ea8;
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.kontinent_list {
+    padding: 20px 140px;
+    color: #48258e85;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.country_list {
+    padding: 20px 40px;
+    color: rgba(168, 120, 189, 0.72);
+    font-size: large;
+    list-style-type: upper-alpha;
+}
+
+.city_list {
+    padding: 20px 40px;
+    color: #48258e9c;
+    font-size: medium;
+}
+
+.text {
+    margin: 40px 80px;
+    color: #292727;
+    font-size: 22px;
+    line-height: 1.6;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.text2 {
+    margin: 40px 120px;
+    background-color: rgb(245, 245, 245);
+    color: #272727;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.flor {
+    width: 100%;
+    height: 30px;
+    background:rgba(220, 213, 236, 0.797);
+}
+
+.img_back{
+    margin-bottom: 0;
+    width: 240px;
+    margin-left: 500px;
+}
